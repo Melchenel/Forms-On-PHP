@@ -1,0 +1,177 @@
+body{
+	background-color: RGB(82, 87, 100);
+}
+
+.mainDiv{
+	width: 50%;
+	height: 50%;
+	display:block;
+	border-radius: 10px;
+	border-style: solid;
+	border-color:white;
+	border-width: medium;
+	position: fixed; 
+	margin-left: 340px;
+	margin-top: 60px;
+	background-color: RGB(217, 196, 142);
+	color:white;
+	font-size: 20px;
+  	font-family: TREBUCHET MS;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	font-family: TREBUCHET MS;
+}
+
+.YN{
+	border-radius: 20px;
+	background-color: RGB(64, 71, 92);
+  box-sizing: border-box;
+  color: white;
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 400;
+  font-family: TREBUCHET MS;
+  padding: 15px 50px;
+  position: relative;
+  margin-left: 270px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+label{
+	color:white;
+	font-size: 20px;
+  font-family: TREBUCHET MS;
+  font-weight: bold;
+  margin-left: 100px;
+
+
+}
+
+.TextClass{
+	border-radius: 20px;
+	background-color: RGB(212, 215, 229);
+  box-sizing: border-box;
+  color: white;
+  font-size: 25px;
+  font-family: TREBUCHET MS;
+  padding-left: 20px;
+  display: inline-block;
+  position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+
+
+button{
+
+	border-radius: 20px;
+	background-color: RGB(64, 71, 92);
+  box-sizing: border-box;
+  color: white;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 150;
+  font-family: TREBUCHET MS;
+  padding: 15px 50px;
+  position: absolute;
+  margin-top: 50px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
+
+.secondDiv{
+	width: 50%;
+	height: 70%;
+	display:block;
+	border-radius: 10px;
+	border-style: solid;
+	border-color:white;
+	border-width: medium;
+	position: fixed; 
+	margin-left: 340px;
+	margin-top: 60px;
+	background-color: RGB(217, 196, 142);
+}
+.TextClassReg{
+	border-radius: 20px;
+	background-color: RGB(212, 215, 229);
+  box-sizing: border-box;
+  color: white;
+  font-size: 25px;
+  font-family: TREBUCHET MS;
+  padding-left: 20px;
+  display: inline-block;
+  position: absolute;
+    margin-top: 20px;
+    left: 65%;
+    transform: translate(-50%, -50%);
+     }
+
+
+
+.radio {
+display: none;
+}
+
+.radio-custom {
+width: 20px;
+height: 20px;
+border: 2px solid #ccc;
+border-radius: 3px;
+position: relative;
+margin-left: 85px;
+
+}
+
+
+
+
+.radio-custom,
+.label {
+display: inline-block;
+vertical-align: middle;
+margin-top: 20px;
+
+}
+
+.radio:checked + .radio-custom::before {
+content: "";
+display: block;
+position: absolute;
+top: 2px;
+right: 2px;
+bottom: 2px;
+left: 2px;
+background: #413548;
+border-radius: 2px;
+}
+.radio-custom,
+.radio:checked + .radio-custom::before {
+border-radius: 50%;
+
+}
+
+.echo{
+	font-size: 20px;
+  	font-family: TREBUCHET MS;
+  	text-align: center;
+	color: white;
+	width: 50%;
+	height: 15%;
+	display:block;
+	border-radius: 20px;
+	border-style: solid;
+	padding-top: 5px;
+	border-width: medium;
+	position: fixed; 
+	margin-left: 340px;
+	background-color: RGB(212, 215, 229);
+}
